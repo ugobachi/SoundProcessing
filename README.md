@@ -7,9 +7,9 @@
 ### pythonのバージョン
 python3.6
 ### 使用したライブラリ
-numpy1.18.1
-scipy1.4.1
-matplotlib3.1.3
+numpy1.18.1 <br>
+scipy1.4.1  <br>
+matplotlib3.1.3 <br>
 
 
 ## 参考
