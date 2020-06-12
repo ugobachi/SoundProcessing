@@ -43,7 +43,8 @@ def wavread(wav):
     """
     wf = wave.open(wav, "r")
     fs = wf.getframerate()
-    x  = wf.readframes(wf.getnframes())
+    frame_lengths = wf.getnframes()
+    x  = wf.readframes(frame_lengths)
     x  = np.frombuffer(x, dtype="int16") / 32768.0
     wf.close()
     return x, float(fs)
