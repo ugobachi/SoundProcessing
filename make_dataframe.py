@@ -4,6 +4,12 @@ import mfcc
 
 
 def get_mfcc(p):
+    """[summary]
+    Args:
+        p ([str]): .wavデータが置いてあるディレクトリ名
+    Returns:
+        [tupple]: (ファイル名, 13次元のMFCC)
+    """    
     wavlist = mfcc.wav2list(p)
     _name = []
     _mfcc = []
@@ -17,6 +23,11 @@ def get_mfcc(p):
     return _name, _mfcc
 
 def make_df():
+    """[summary]
+    データフレーム作成
+    Returns:
+        df[dataframe]: 取得したファイル名とMFCCのリストからデータフレーム作成
+    """    
     p = input('Please input sound type : ')
     filename, tmp = get_mfcc(p)
     df = pd.DataFrame(tmp, index=filename)
