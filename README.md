@@ -1,7 +1,9 @@
 # SoundProcessing
 
 ## 概要
-音声周りの処理を色々まとめる
+音声周りの処理を色々まとめる<br>
+・MFCCの取得(mfcc.py, plotting.py)<br>
+・soxコマンドからスペクトログラムを取得(shell_spec.py)<br>
 
 ## 実行環境
 ### pythonのバージョン
@@ -14,4 +16,5 @@ matplotlib3.1.3 <br>
 
 ## 参考
 ・ Webデータリポート - 生活音を機械学習してみた ( http://webdatareport.hatenablog.com/entry/2016/11/06/161304 )<br>
-・ 音声波形のサンプルデータ ( https://wsignal.sakura.ne.jp/onsei2007/wav_data51/wav_data51.html )
+・ 音声波形のサンプルデータ - ( https://wsignal.sakura.ne.jp/onsei2007/wav_data51/wav_data51.html )<br>
+・ soxコマンドの使い方等 - ( http://sox.sourceforge.net/sox.html )<br>
