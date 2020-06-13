@@ -13,6 +13,7 @@ python3.6
 numpy1.18.1 <br>
 scipy1.4.1  <br>
 matplotlib3.1.3 <br>
+pandas1.0.3<br>
 
 
 ## 参考
