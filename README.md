@@ -2,12 +2,13 @@
 
 ## 概要
 音声周りの処理を色々まとめる<br>
-・MFCCの取得(mfcc.py, plotting.py)<br>
-・soxコマンドからスペクトログラムを取得(shell_spec.py)<br>
-・取得したMFCCからpandasでデータフレームを作成する(make_dataframe.py)<br>
-・SVMの学習と認識その1(train_svm_vol1.py)<br>
-・SVMの学習と認識その2(train_svm_vol2.py)<br>
-※SVMの学習は自前の学習データを用意する必要あり<br>
+・ MFCCの取得(mfcc.py, plotting.py)<br>
+・ soxコマンドからスペクトログラムを取得(shell_spec.py)<br>
+・ 取得したMFCCからpandasでデータフレームを作成する(make_dataframe.py)<br>
+※ SVMの学習は自前の学習データを用意する必要あり<br>
+・ SVMの学習と認識その1(train_svm_vol1.py)<br>
+・ SVMの学習と認識その2(train_svm_vol2.py)<br>
+
 
 ## 実行環境
 ### pythonのバージョン
@@ -17,6 +18,7 @@ numpy1.18.1 <br>
 scipy1.4.1  <br>
 matplotlib3.1.3 <br>
 pandas1.0.3<br>
+librosa0.7.2<br>
 
 
 ## 参考
