@@ -4,6 +4,7 @@
 音声周りの処理を色々まとめる<br>
 ・MFCCの取得(mfcc.py, plotting.py)<br>
 ・soxコマンドからスペクトログラムを取得(shell_spec.py)<br>
+・取得したMFCCからpandasでデータフレームを作成する(make_dataframe.py)<br>
 
 ## 実行環境
 ### pythonのバージョン
@@ -12,6 +13,7 @@ python3.6
 numpy1.18.1 <br>
 scipy1.4.1  <br>
 matplotlib3.1.3 <br>
+pandas1.0.3<br>
 
 
 ## 参考
